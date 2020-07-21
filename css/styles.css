@@ -1,0 +1,28 @@
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.around{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.header{
+	background-color: #6A6A6A; 
+}
+
+.barra{
+	animation-name: desplegar; 
+	animation-duration: 3s; 
+	animation-fill-mode: forwards;
+	width: 100%
+	
+}
+
+@keyframes desplegar{
+	from{height: 0px; background-color: #4a4a4a}
+	to{height: 200px; background-color: #a2a2a2}
+}
